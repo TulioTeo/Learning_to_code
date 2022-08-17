@@ -7,9 +7,9 @@ int main()
 
     printf("Programa para calcular a media de dois numeros\n\n");
 
-    printf("Digite o primeiro numero:\n");
+    printf("Digite o primeiro numero: ");
     scanf("%f",&num_1);
-    printf("Digite o segundo numero:\n");
+    printf("Digite o segundo numero: ");
     scanf("%f",&num_2);
     resultado = (num_1 + num_2) / 2;
     printf("A media = %.2f",resultado);
