@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <locale.h>
 
 int main()
@@ -38,8 +37,11 @@ int main()
     }
     else //num3 <= num2 && num2 <= num1
     {
-        printf("A ordem crescente é: %i, %i, %i", num3, num2, num1);
+        printf("\nA ordem crescente é: %i, %i, %i", num3, num2, num1);
     }
+
+    printf("\n\nPressione qualquer tecla para continuar.\n");
+    scanf("%c");
 
     return 0;
 }
