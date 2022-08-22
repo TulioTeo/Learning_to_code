@@ -1,5 +1,5 @@
 ## Learning_to_code
-Começando dos fundamentos!
+Lógica de programação
 
 #### Instruções para codificar C/C++ no Visual Studio Code e instalar e configurar o GCC no Windows (ferramentas para compilação de fontes escritos em C / C++):
 
