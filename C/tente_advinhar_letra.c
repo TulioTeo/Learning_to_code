@@ -1,5 +1,5 @@
 /*
-* Programa que testa sua capacidade de adinhar uma letra
+* Programa que testa sua capacidade de adivinhar uma letra
 * Túlio Teodoro
 * Estudo dos conceitos da lógica de programação
 * Agosto/2022
@@ -32,7 +32,7 @@ int main()
 
         while ((resposta=getch()) != secreto)
         {
-            printf("%c esta incorreto. Tente novamente.\n", resposta);
+            printf(" %c esta incorreto. Tente novamente.\n", resposta);
             tentativas++;
         }
 
