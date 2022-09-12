@@ -36,7 +36,8 @@ int main()
             tentativas++;
         }
 
-        printf("%c esta correto! Voce acertou!\n", resposta);
+        printf("%c esta correto! Voce acertou!", resposta);
+        printf("\n");
         printf("Voce acertou em %d tentativas.\n\n", tentativas);
         printf("Quer jogar novamente? (s/n)");
         escolha = getch();
